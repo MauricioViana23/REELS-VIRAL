@@ -9,11 +9,8 @@ const Header: React.FC = () => {
         <span className="text-xs font-semibold tracking-widest text-gray-400 uppercase">DoutorGPT - IA Engine</span>
       </div>
       <h1 className="text-4xl md:text-5xl font-bold text-white tracking-tight">
-        Crie <span className="text-pink-500 drop-shadow-[0_0_15px_rgba(236,72,153,0.5)]">Reels Virais e Éticos</span> em Segundos
+        <span className="text-pink-500 drop-shadow-[0_0_15px_rgba(236,72,153,0.5)]">DoutorGPT</span> Reels Maker
       </h1>
-      <p className="text-lg text-gray-400 max-w-2xl mx-auto">
-        Domine a psicologia da retenção médica. Pare o scroll sem quebrar o juramento.
-      </p>
     </div>
   );
 };

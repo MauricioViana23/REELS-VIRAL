@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import Header from './components/Header';
-import FeatureGrid from './components/FeatureGrid';
 import InputForm from './components/InputForm';
 import OutputDisplay from './components/OutputDisplay';
 import { FormData, GeneratedScriptData, Objective, StrategyType } from './types';
@@ -44,7 +43,6 @@ const App: React.FC = () => {
 
       <main className="relative z-10 max-w-5xl mx-auto px-4 py-12 md:py-20">
         <Header />
-        <FeatureGrid />
         
         <div className="mb-12">
           <InputForm 
